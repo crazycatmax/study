@@ -15,7 +15,9 @@
 <br/>`$ git clone /path/to/repository`<br/>
 如果是远端服务器上的仓库，你的命令会是这个样子：
 <br/>`$ git clone username@host:/path/to/repository`<br/>
-<br/>`$ git clone https://github.com/xxx/repository.git`<br/>
+<br/>`$ git clone https://github.com/xxx/repository`<br/>
+注意clone命令是在同级文件夹bash!
+以下命令均在项目文件夹内!
 
 ## 自报家门
 就是在git中设置当前使用的用户是谁,每一次备份都会把当前备份者的信息存储起来
