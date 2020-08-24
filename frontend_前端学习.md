@@ -230,9 +230,57 @@
 
 ## 【前端工作流】
 
-### xxx
+### 工作流规范	
 
-### xxx
+- ##### git-flow 
+
+  - 示意图
+    - ![](F:\github\study\img\git_flow.png)
+  - 参考链接
+    - https://nvie.com/posts/a-successful-git-branching-model/
+  - 特点
+    - 长期分支
+      1. 主分支-master，具有多个tag，是develop分支上经过开发、测试后稳定发布的版本，用于发布
+      2. 开发分支-develop，是自动构建分支，所有的feature分支的代码完成后会合并到develop
+    - 短期分支（完成任务后删除）
+      1. 功能分支-feature，从develop拉取，为即将发布的版本开发新功能，最终合并回develop
+      2. bug修复分支-hotfix，从master拉取，以便快速修复线上问题，修复完成后合并到develop和master
+      3. 测试分支-release，从develop拉取，包含所有新功能和必要的修复，并且是彻底测试过的，会合并到master和develop
+  - 应用场景
+    - 需要支持多个版本的软件并且相互独立
+    - 多版本独立，同时后续各版本开发
+
+- ##### github-flow
+
+  - 示意图
+    - ![](F:\github\study\img\github_flow.png)
+  - 参考链接
+    - https://guides.github.com/introduction/flow/
+  - 特点
+    - 只有一个master长期分支和多个feature分支
+    - master分支中的代码一定是可以部署的
+    - 新建的分支名称需体现此分支的作用（语义化分支名）
+    - 支持快速迭代、部署，适合需求变化多端的前端**开源项目**
+  - 工作流
+    - master => feature branches  => pull request => master
+  - 应用场景
+    - 需要频繁部署、持续发布的项目
+
+- ##### gitlab-flow
+
+  - 示意图
+    - ![](F:\github\study\img\gitLab_flow.png)
+  - 参考链接
+    - https://docs.gitlab.com/ee/topics/gitlab_flow.html
+  - 特点
+    - master为主分支
+    - 拥有环境分支pre-production(预发分支)、production(生产分支)
+
+  - 应用场景：
+    - 需要进行预发布的项目
+    - github推荐的工作流方式
+
+
 
 ------
 
