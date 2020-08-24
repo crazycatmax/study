@@ -2,13 +2,13 @@
 
 
 
-- # Keep hungery！Keep foolish!
+- ## Keep hungery！Keep foolish!
 
-- # you can make almost anything!
+- ## You can make almost anything!
 
-- # I can do everything！
+- ## I can do everything！
 
-- # Nobody knows what they are doing!
+- ## Nobody knows what the hell are doing!
 
   ------
 
