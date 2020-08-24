@@ -235,7 +235,7 @@
 - ##### git-flow 
 
   - 示意图
-    - ![](F:\github\study\img\git_flow.png)
+    - ![](F:\github\study\frontend_前端学习.assets\git_flow.png)
   - 参考链接
     - https://nvie.com/posts/a-successful-git-branching-model/
   - 特点
@@ -253,7 +253,7 @@
 - ##### github-flow
 
   - 示意图
-    - ![](F:\github\study\img\github_flow.png)
+    - ![](F:\github\study\frontend_前端学习.assets\github_flow.png)
   - 参考链接
     - https://guides.github.com/introduction/flow/
   - 特点
@@ -269,7 +269,7 @@
 - ##### gitlab-flow
 
   - 示意图
-    - ![](F:\github\study\img\gitLab_flow.png)
+    - ![](F:\github\study\frontend_前端学习.assets\gitLab_flow.png)
   - 参考链接
     - https://docs.gitlab.com/ee/topics/gitlab_flow.html
   - 特点
@@ -278,7 +278,7 @@
 
   - 应用场景：
     - 需要进行预发布的项目
-    - github推荐的工作流方式
+    - gitlab推荐的工作流方式
 
 
 
