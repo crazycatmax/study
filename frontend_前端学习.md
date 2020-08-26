@@ -1,8 +1,45 @@
-[TOC]
 
 # 前端学习
 
-
+- [前端学习](#前端学习)
+  - [【基础】](#基础)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [JavaScript](#javascript)
+    - [JQuery](#jquery)
+  - [【进阶】](#进阶)
+    - [SVG](#svg)
+    - [图表可视化](#图表可视化)
+    - [CSS3](#css3)
+    - [JavaScript](#javascript-1)
+    - [函数式编程](#函数式编程)
+    - [源码阅读](#源码阅读)
+    - [手写系列](#手写系列)
+  - [【流行框架】](#流行框架)
+    - [vue](#vue)
+    - [react](#react)
+    - [angular](#angular)
+    - [BootStrap](#bootstrap)
+  - [【前端工作流】](#前端工作流)
+    - [工作流意义](#工作流意义)
+    - [工作流规范](#工作流规范)
+    - [](#)
+  - [【模块化开发】](#模块化开发)
+    - [模块化开发规范](#模块化开发规范)
+    - [RequireJS / SeaJS](#requirejs--seajs)
+    - [AMD / CMD](#amd--cmd)
+    - [统一规范UMD](#统一规范umd)
+  - [【NodeJS】](#nodejs)
+    - [基本操作](#基本操作)
+    - [内置模块](#内置模块)
+    - [高级特性](#高级特性)
+    - [常用框架](#常用框架)
+  - [【常用工具】](#常用工具)
+    - [包管理工具](#包管理工具)
+    - [构建工具](#构建工具)
+    - [打包工具](#打包工具)
+    - [测试工具](#测试工具)
+    - [开发工具](#开发工具)
 
 ## 【基础】
 
@@ -239,7 +276,7 @@
 - ##### git-flow 
 
   - 示意图
-    - ![示意图](https://github.com/crazycatmax/study/tree/master/img/git_flow.png)
+    - ![](https://github.com/crazycatmax/study/tree/master/img/git_flow.png)
   - [参考链接](https://nvie.com/posts/a-successful-git-branching-model/)
   - 特点
     - 长期分支
@@ -256,7 +293,7 @@
 - ##### github-flow
 
   - 示意图
-    - ![示意图](https://github.com/crazycatmax/study/tree/master/img/github_flow.png)
+    - ![](https://github.com/crazycatmax/study/tree/master/img/github_flow.png)
   - [参考链接](https://guides.github.com/introduction/flow/)
   - 特点
     - 只有一个master长期分支和多个feature分支
@@ -271,7 +308,7 @@
 - ##### gitlab-flow
 
   - 示意图
-    - ![示意图](https://github.com/crazycatmax/study/tree/master/img/gitLab_flow.png)
+    - ![](https://github.com/crazycatmax/study/tree/master/img/gitLab_flow.png)
   - [参考链接](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
   - 特点
     - master为主分支
@@ -280,8 +317,6 @@
   - 应用场景：
     - 需要进行预发布的项目
     - gitlab推荐的工作流方式
-
-### 
 
 ------
 
@@ -376,7 +411,3 @@
 - PS
 
 ------
-
-
-
-### 
