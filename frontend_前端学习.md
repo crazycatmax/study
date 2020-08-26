@@ -23,7 +23,6 @@
   - [【前端工作流】](#前端工作流)
     - [工作流意义](#工作流意义)
     - [工作流规范](#工作流规范)
-    - [](#)
   - [【模块化开发】](#模块化开发)
     - [模块化开发规范](#模块化开发规范)
     - [RequireJS / SeaJS](#requirejs--seajs)
@@ -276,7 +275,8 @@
 - ##### git-flow 
 
   - 示意图
-    - ![](https://github.com/crazycatmax/study/tree/master/img/git_flow.png)
+
+    ![](https://raw.github.com/crazycatmax/study/master/img/git_flow.png)
   - [参考链接](https://nvie.com/posts/a-successful-git-branching-model/)
   - 特点
     - 长期分支
@@ -293,7 +293,9 @@
 - ##### github-flow
 
   - 示意图
-    - ![](https://github.com/crazycatmax/study/tree/master/img/github_flow.png)
+
+    ![](https://raw.github.com/crazycatmax/study/master/img/github_flow.png)
+
   - [参考链接](https://guides.github.com/introduction/flow/)
   - 特点
     - 只有一个master长期分支和多个feature分支
@@ -301,14 +303,17 @@
     - 新建的分支名称需体现此分支的作用（语义化分支名）
     - 支持快速迭代、部署，适合需求变化多端的前端**开源项目**
   - 工作流
+    
     - master => feature branches  => pull request => master
   - 应用场景
+    
     - 需要频繁部署、持续发布的项目
 
 - ##### gitlab-flow
 
   - 示意图
-    - ![](https://github.com/crazycatmax/study/tree/master/img/gitLab_flow.png)
+
+    ![Image text](https://raw.github.com/crazycatmax/study/master/img/gitLab_flow.png)
   - [参考链接](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
   - 特点
     - master为主分支
