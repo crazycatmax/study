@@ -166,7 +166,6 @@
   - 模块
   - 命名空间
   - 装饰器
-  - 
 - 异步编程
   - callback
   - promise
@@ -313,12 +312,14 @@
 
   - 示意图
 
-    ![Image text](https://raw.github.com/crazycatmax/study/master/img/gitLab_flow.png)
+    ![](https://raw.github.com/crazycatmax/study/master/img/gitLab_flow.png)
+    
   - [参考链接](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
+  
   - 特点
-    - master为主分支
+  - master为主分支
     - 拥有环境分支pre-production(预发分支)、production(生产分支)
-
+  
   - 应用场景：
     - 需要进行预发布的项目
     - gitlab推荐的工作流方式
