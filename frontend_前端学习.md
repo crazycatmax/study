@@ -239,9 +239,8 @@
 - ##### git-flow 
 
   - 示意图
-    - ![](img/git_flow.png)
-  - 参考链接
-    - https://nvie.com/posts/a-successful-git-branching-model/
+    - ![示意图](https://github.com/crazycatmax/study/tree/master/img/git_flow.png)
+  - [参考链接](https://nvie.com/posts/a-successful-git-branching-model/)
   - 特点
     - 长期分支
       1. 主分支-master，具有多个tag，是develop分支上经过开发、测试后稳定发布的版本，用于发布
@@ -257,9 +256,8 @@
 - ##### github-flow
 
   - 示意图
-    - ![](img/github_flow.png)
-  - 参考链接
-    - https://guides.github.com/introduction/flow/
+    - ![示意图](https://github.com/crazycatmax/study/tree/master/img/github_flow.png)
+  - [参考链接](https://guides.github.com/introduction/flow/)
   - 特点
     - 只有一个master长期分支和多个feature分支
     - master分支中的代码一定是可以部署的
@@ -273,9 +271,8 @@
 - ##### gitlab-flow
 
   - 示意图
-    - ![](img/gitLab_flow.png)
-  - 参考链接
-    - https://docs.gitlab.com/ee/topics/gitlab_flow.html
+    - ![示意图](https://github.com/crazycatmax/study/tree/master/img/gitLab_flow.png)
+  - [参考链接](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
   - 特点
     - master为主分支
     - 拥有环境分支pre-production(预发分支)、production(生产分支)
