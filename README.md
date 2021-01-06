@@ -8,7 +8,7 @@
 
 - ## I can do everything！
 
-- ## Nobody knows what the hell are doing!
+- ## Nobody knows what the hell they are doing!
 
   ------
 
